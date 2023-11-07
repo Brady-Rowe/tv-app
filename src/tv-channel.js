@@ -25,20 +25,50 @@ export class TvChannel extends LitElement {
       :host {
         display: inline-flex;
       }
-      .wrapper {
-        padding: 16px;
-        background-color: #eeeeee;
+      .course-topic {
+        display: flex;
+        flex-direction: column;
+        max-height: 50px;
+        max-width: 200px;
+        padding: 8px;
+        margin-bottom: 10px;
+        line-height: 2px;
+        font-size: 12px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 2px 2px 2px 2px grey;
+
       }
     `;
   }
   // LitElement rendering template of your element
   render() {
     return html`
-      <div class="wrapper">
+    <div class = "online-training">
+
+      <div class="course-topic">
         <h3>${this.title}</h3>
         <h4>${this.presenter}</h4>
         <slot></slot>
-      </div>  
+      </div>
+      <div class = "content-title">
+
+      </div>
+      <div class = "content">
+
+      </div>
+      <div class = "time-remaining">
+
+      </div>
+      <div class = "last-page">
+
+      </div>
+      <div class = "next-page">
+
+      </div>
+
+
+    </div>
       `;
   }
 }
