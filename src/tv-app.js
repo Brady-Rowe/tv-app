@@ -32,12 +32,20 @@ export class TvApp extends LitElement {
         display: block;
         margin: 16px;
         padding: 16px;
+        border: solid;
+        font-size: 12px;
+        
       }
+      
       .course-topics{
         display: flex;
+        height: 680px;
+        width: 140px;
         flex-direction: column;
-
+        border: solid;
       }
+
+      
       `
     ];
   }
@@ -45,20 +53,39 @@ export class TvApp extends LitElement {
   render() {
     return html`
       <h2>${this.name}</h2>
-      <div class = course-topics>
-      ${
-        this.listings.map(
-          (item) => html`
-            <tv-channel 
-              title="${item.title}"
-              presenter="${item.metadata.author}"
-              @click="${this.itemClick}"
-            >
-            </tv-channel>
-          `
-        )
-      }
-      </div>
+      <div class = "container">
+        <div class = course-topics>
+        ${
+          this.listings.map(
+            (item) => html`
+              <tv-channel 
+                title="${item.title}"
+                presenter="${item.metadata.author}"
+                @click="${this.itemClick}"
+              >
+              </tv-channel>
+            `
+          )
+        }
+        </div> <!-- END course topics -->
+
+        <div class = "content-box">
+        
+          <div class = "active-page">
+            
+          </div> <!-- END active-page -->
+
+          <div class = "prev-page">
+            
+          </div> <!-- END prev-page -->
+
+          <div class = "next-page">
+            
+          </div> <!-- END next-page -->
+
+        </div> <!-- END content-box -->
+      </div> <!-- END container -->
+
       <div>
         <!-- video -->
         <!-- discord / chat - optional -->
