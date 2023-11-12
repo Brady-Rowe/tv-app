@@ -15,7 +15,7 @@
         "slug": "this-is-water",
         "order": 0,
         "parent": null,
-        "title": "This, is water",
+        "title": "Introduction",
         "description": "What is water?",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=eC7xzavzEKY",
@@ -32,7 +32,7 @@
         "slug": "this-is-water",
         "order": 0,
         "parent": null,
-        "title": "This, is water",
+        "title": "Getting set up & exploring the Playground",
         "description": "What is water?",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=eC7xzavzEKY",
@@ -49,7 +49,7 @@
         "slug": "this-is-water",
         "order": 0,
         "parent": null,
-        "title": "This, is water",
+        "title": "Define A Custom Element",
         "description": "What is water?",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=eC7xzavzEKY",
@@ -66,7 +66,7 @@
         "slug": "this-is-water",
         "order": 0,
         "parent": null,
-        "title": "This, is water",
+        "title": "Shadow DOM",
         "description": "What is water?",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=eC7xzavzEKY",
@@ -83,7 +83,7 @@
         "slug": "this-is-water",
         "order": 0,
         "parent": null,
-        "title": "This, is water",
+        "title": "HTML Templates",
         "description": "What is water?",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=eC7xzavzEKY",
@@ -100,7 +100,7 @@
         "slug": "this-is-water",
         "order": 0,
         "parent": null,
-        "title": "This, is water",
+        "title": "Adding Functionality",
         "description": "What is water?",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=eC7xzavzEKY",
@@ -117,7 +117,7 @@
         "slug": "this-is-water",
         "order": 0,
         "parent": null,
-        "title": "This, is water",
+        "title": "Lit-html",
         "description": "What is water?",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=eC7xzavzEKY",
@@ -134,7 +134,7 @@
         "slug": "this-is-water",
         "order": 0,
         "parent": null,
-        "title": "This, is water",
+        "title": "LitElement",
         "description": "What is water?",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=eC7xzavzEKY",
@@ -151,7 +151,7 @@
         "slug": "this-is-water",
         "order": 0,
         "parent": null,
-        "title": "This, is water",
+        "title": "Congratulations",
         "description": "What is water?",
         "metadata": {
           "source": "https://www.youtube.com/watch?v=eC7xzavzEKY",

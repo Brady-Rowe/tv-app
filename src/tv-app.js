@@ -40,7 +40,7 @@ export class TvApp extends LitElement {
       .course-topics{
         display: flex;
         height: 680px;
-        width: 140px;
+        width: 170px;
         flex-direction: column;
         border: solid;
       }

@@ -29,17 +29,16 @@ export class TvChannel extends LitElement {
       .course-topic {
         display: flex;
         flex-direction: column;
-        max-height: 50px;
-        max-width: 200px;
+        max-height: 200px;
+        width: 150px;
         padding: 8px;
         margin-bottom: 10px;
-        line-height: 2px;
-        font-size: 12px;
+        line-height: 12px;
+        font-size: 10px;
         background-color: white;
-        border-radius: 8px;
-        box-shadow: 2px 2px 2px 2px grey;
-        text-align: center;
-
+        border-radius: 6px;
+        box-shadow: 1px 1px 1px 2px grey;
+        text-align: left;
       }
 
     `;
@@ -49,7 +48,7 @@ export class TvChannel extends LitElement {
     return html`
     <div class="course-topic">
         <h3>${this.title}</h3>
-        <h4>${this.presenter}</h4>
+        <!-- <h4>${this.presenter}</h4> -->
         <slot></slot>
     </div>
       `;
