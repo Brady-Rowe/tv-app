@@ -46,6 +46,11 @@ export class TvApp extends LitElement {
         flex-direction: column;
         border: solid;
       }
+      @media (min-width){
+        /* .course-topics{
+          width: 20%;
+        } */
+      }
       `
     ];
   }
@@ -67,7 +72,7 @@ export class TvApp extends LitElement {
               >
               </tv-channel>
             `
-          ) 
+          )
         }
         
         </div> <!-- END course topics -->

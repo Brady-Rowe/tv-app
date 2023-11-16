@@ -97,8 +97,7 @@ export class TvChannel extends LitElement {
         </span>
         <h3>${this.title}</h3>
         <slot></slot>
-      </div>
-      
+      </div>  
       `;
   }
 }

@@ -32,7 +32,7 @@ export class CourseTitle extends LitElement {
       :host {
         display: inline-flex;
       }
-      .wrapper {
+      .course-topics {
         padding: 16px;
         background-color: #eeeeee;
       }
