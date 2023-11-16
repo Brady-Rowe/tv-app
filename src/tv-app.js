@@ -11,6 +11,7 @@ export class TvApp extends LitElement {
     this.name = '';
     this.source = new URL('../assets/channels.json', import.meta.url).href;
     this.listings = [];
+    this.id = '';
   }
   // convention I enjoy using to define the tag's name
   static get tag() {
@@ -22,6 +23,7 @@ export class TvApp extends LitElement {
       name: { type: String },
       source: { type: String },
       listings: { type: Array },
+      id: { type: String }
     };
   }
   // LitElement convention for applying styles JUST to our element
@@ -36,7 +38,7 @@ export class TvApp extends LitElement {
         font-size: 12px;
         
       }
-      
+
       .course-topics{
         display: flex;
         height: 680px;
@@ -44,8 +46,6 @@ export class TvApp extends LitElement {
         flex-direction: column;
         border: solid;
       }
-
-      
       `
     ];
   }
@@ -54,6 +54,7 @@ export class TvApp extends LitElement {
     return html`
       <h2>${this.name}</h2>
       <div class = "container">
+            
         <div class = course-topics>
         ${
           this.listings.map(
@@ -61,18 +62,20 @@ export class TvApp extends LitElement {
               <tv-channel 
                 title="${item.title}"
                 presenter="${item.metadata.author}"
+                id='${item.id}'
                 @click="${this.itemClick}"
               >
               </tv-channel>
             `
-          )
+          ) 
         }
+        
         </div> <!-- END course topics -->
 
         <div class = "content-box">
         
           <div class = "active-page">
-            
+          
           </div> <!-- END active-page -->
 
           <div class = "prev-page">
